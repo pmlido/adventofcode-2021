@@ -1,0 +1,29 @@
+{
+  "name": "dec-07",
+  "version": "1.0.0",
+  "description": "npm init -y npm install -D typescript@3.3.3 npm install -D tslint@5.12.1 npm install @types/node@14.0.4 --saveDev",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npx tsc && node dist/app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.4"
+  }
+}
